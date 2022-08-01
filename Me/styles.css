@@ -1,0 +1,321 @@
+/* imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Oswald&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+
+/* This gets rid of the CSS put there by default */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* .content {
+  width: 1800px;
+  margin: 0 auto;
+} */
+
+/* This is selecting the upper-Box div */
+.top-Container {
+  background-color: #f5f0bb;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 750px;
+}
+
+.middle-Container {
+  background-color: #c4dfaa;
+  height: 1000px;
+}
+
+.bottom-Container {
+  background-color: #90c8ac;
+  height: 300px;
+}
+
+.footer {
+  background-color: #73a9ad;
+  height: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-Cloud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 400px;
+  top: 95px;
+}
+
+.bottom-Cloud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 420px;
+  bottom: 300px;
+}
+
+.mountain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+
+.my-Name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 70px;
+  position: relative;
+  top: 130px;
+}
+
+.job {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 50px;
+  position: relative;
+  top: 135px;
+}
+
+.middle-Hello {
+  margin: auto;
+  padding-top: 40px;
+  position: relative;
+  left: 10px;
+}
+
+.about-ME {
+  width: 575px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  margin: auto;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: "Signika", sans-serif;
+  font-size: 40px;
+  max-width: fit-content;
+}
+
+.dots {
+  position: relative;
+  bottom: 30px;
+  margin: auto;
+  font-size: 100px;
+  color: gray;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.skills-title {
+  margin: auto;
+  position: relative;
+  bottom: 20px;
+  padding-top: 30px;
+}
+
+.camera {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 250px;
+  top: 40px;
+}
+
+h3 {
+  font-family: "Signika", sans-serif;
+  font-size: 25px;
+  max-width: fit-content;
+}
+
+.photography-title {
+  margin: auto;
+  position: relative;
+  bottom: 110px;
+  right: 65px;
+}
+
+p {
+  max-width: fit-content;
+}
+
+.photography-para {
+  width: 575px;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  left: 155px;
+  bottom: 90px;
+}
+
+.web-title {
+  margin: auto;
+  position: relative;
+  right: 345px;
+  top: 30px;
+}
+
+.web-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 300px;
+  top: 10px;
+}
+
+.dev-para {
+  width: 575px;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  right: 108px;
+  bottom: 100px;
+}
+
+.four-dots {
+  position: relative;
+  bottom: 160px;
+  padding-top: 40px;
+  margin: auto;
+  font-size: 100px;
+  color: gray;
+  padding-bottom: px;
+}
+
+.GIT {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.GIT-para {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.CR {
+  margin: auto;
+  position: relative;
+  top: 40px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+
+a:link {
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  /* padding-left: 10px; */
+  font-size: 20px;
+}
+
+a:hover {
+  color: #008168;
+}
+
+a:visited {
+  color: black;
+}
+
+/* How i was able to get the buttons centerd */
+.test-links {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  color: black;
+}
+
+.insta {
+  position: relative;
+  right: 20px;
+}
+
+.linkden {
+  position: relative;
+  right: 5px;
+}
+
+.twitter {
+  position: relative;
+  left: 5px;
+}
+
+.contact-btn {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 35px;
+  font-family: "Roboto Mono", monospace;
+  background-color: #73a9ad;
+  font-size: 20px;
+}
+
+/* how to crrate a button with an icon CSS */
+
+.btn1 {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 45px;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #008168;
+}
+
+.button:active {
+  background-color: #006e58;
+}
+
+.button-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  height: 100%;
+}
+
+.button-icon {
+  /* 1.5em means 1.5x the current font size */
+  font-size: 1.5em;
+  /* this is changing the opacity to make the icon look like its in its own box */
+  background-color: rgba(0, 0, 0, 0.08);
+}
